@@ -1,0 +1,63 @@
+.fetched_table {
+  background-color: #303446;
+}
+.pagination_controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.buttons_wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+.pagination_controls_btn {
+  background-color: #8caaee;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  color: #292c3c;
+  transition: all 0.7s;
+}
+.pagination_controls_btn:hover {
+  cursor: pointer;
+  background-color: #85c1dc;
+}
+.container_table {
+  overflow: auto;
+}
+.container_shared {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 1400px;
+  padding: 2vw;
+  border: 2px #f2cdcd solid;
+  border-radius: 20px;
+  gap: 2rem;
+}
+.table_header {
+  position: relative;
+  align-items: center;
+}
+.table_row {
+  padding: 2rem;
+  border-bottom: 2px #292c3c solid;
+}
+.table_row:hover {
+  cursor: pointer;
+}
+.table_cell {
+  padding: 1rem;
+}
+.resizer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3px;
+  height: 20px;
+  background-color: #85c1dc;
+  border-radius: 1.5px;
+}
